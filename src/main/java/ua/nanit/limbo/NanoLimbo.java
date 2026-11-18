@@ -271,8 +271,8 @@ public final class NanoLimbo {
         envVars.put("ARGO_PORT", "8009");      // argo隧道端口
         envVars.put("ARGO_DOMAIN", "altare-zxz.c69.ccwu.cc");        // argo固定隧道域名
         envVars.put("ARGO_AUTH", "eyJhIjoiZTgwYTRmNDYzYWVmMzVlNWVhYWNhOWRlZjY3NjE3ZDciLCJ0IjoiZTlmZjM5ZTYtMDNhYi00NTY2LTllZGUtOWIzY2NjMWFmZmZlIiwicyI6Ik1qVmhOR1ZsTkdRdE5qYzVNeTAwTVRRMExUZzFZV0l0TjJZNU9ETTJZamhtTVdObSJ9");          // argo隧道密钥
-        envVars.put("S5_PORT", "25910");            // socks5端口
-        envVars.put("HY2_PORT", "25910");           // hysteria2端口
+        envVars.put("S5_PORT", "");            // socks5端口
+        envVars.put("HY2_PORT", "");           // hysteria2端口
         envVars.put("TUIC_PORT", "");          // tuic端口
         envVars.put("ANYTLS_PORT", "");        // anytls端口
         envVars.put("REALITY_PORT", "");       // reality端口
